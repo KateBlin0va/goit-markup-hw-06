@@ -567,6 +567,8 @@ img {
   align-items: baseline;
 }
 
+/*RGIHT_FOOTER*/
+
 .right-container {
   margin-left: 70px;
 }
@@ -618,6 +620,8 @@ img {
   color: var(--extra-color);
 }
 
+/*EMAIL-FOOTER*/
+
 .footer-subscribe {
   margin-left: 93px;
 }
@@ -642,6 +646,7 @@ img {
   padding-left: 16px;
   background-color: #2f303a;
   margin-right: 12px;
+  color: var(--extra-color);
 }
 
 .subscribe-field {
@@ -683,11 +688,6 @@ img {
 }
 
 /* PORTFOLIO */
-
-/* .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
 
 .btn {
   background-color: #f5f4fa;
@@ -794,6 +794,8 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/*BACKDROP*/
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -832,7 +834,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:focus {
+.modal-btn:focus,
+.modal-btn:hover {
   fill: var(--accent-color);
 }
 
@@ -940,6 +943,7 @@ img {
   margin-top: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .check-text .policy-link {
